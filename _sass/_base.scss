@@ -67,7 +67,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 33%;
     .address {
       p { display: block; }
     }
@@ -492,7 +492,7 @@ figure.highlight {
 pre {
   color: var(--global-theme-color);
   background-color: var(--global-code-bg-color);
-  border-radius: 6px;
+  border-radius: 20px;
   padding: 6px 12px;
   pre, code {
     background-color: transparent;

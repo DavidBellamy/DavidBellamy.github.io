@@ -1,0 +1,85 @@
+<div class="row">
+  
+  <!-- <div id="{{talk.key}}" class="col-sm-8"> -->
+    <div class="img_and_text">
+      <img class="img" src="{{ talk.img }}" data-zoomable>
+      <div class="title">{{talk.title}}</div>
+      <div class="author">{{talk.authors}}</div> 
+      <div>
+        {{talk.paper_year}}
+      </div>
+      <div>
+        Presented on {{talk.presentation_date}}      
+      </div>
+    </div>
+   
+    <div class="links">
+      {% if talk.summary %}
+        <a class="summary btn btn-sm z-depth-0" role="button">Summary</a>
+      {% endif %}
+
+      {% if talk.paper_url %}
+        <a href="{{ talk.paper_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Paper</a>
+      {% endif %}
+      
+      {% if talk.slides %}
+        <a class="slides btn btn-sm z-depth-0" role="button">Slides</a>
+      {% endif %}
+      
+      {% if talk.blog %}
+        <a href="{{ talk.blog }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Blog</a>
+      {% endif %}
+      
+      {% if talk.code %}
+        <a href="{{ talk.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+      {% endif %}
+      
+      {% if talk.poster %}
+        {% if talk.poster contains '://' %}
+        <a href="{{ talk.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Poster</a>
+        {% else %}
+        <a href="{{ talk.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Poster</a>
+        {% endif %}
+      {% endif %}
+      
+      {% if talk.website %}
+        <a href="{{ talk.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
+      {% endif %}
+    </div>
+
+    <!-- Hidden talk summary -->
+    {% if talk.summary %}
+    <div class="summary hidden">
+      <p>{{ talk.summary }}</p>
+    </div>
+    {% endif %}
+
+    {% if talk.slides %}
+    <div class="slides hidden">
+        
+      {% if talk.slides_keynote %}
+      {% if talk.slides_keynote contains '://' %}
+      <a href="{{ talk.slides_keynote }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides (key)</a>
+      {% else %}
+      <a href="{{ talk.slides_keynote | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank"> .key</a>
+      {% endif %}
+    {% endif %}
+    
+    {% if talk.slides_ppt %}
+        {% if talk.ppt contains '://' %}
+        <a href="{{ talk.slides_ppt }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides (ppt)</a>
+        {% else %}
+        <a href="{{ talk.slides_ppt | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank"> .pptx</a>
+        {% endif %}
+    {% endif %}
+    
+    {% if talk.slides_pdf %}
+        {% if talk.slides_pdf contains '://' %}
+        <a href="{{ talk.slides_pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides (pdf)</a>
+        {% else %}
+        <a href="{{ talk.slides_pdf | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank"> .pdf</a>
+        {% endif %}
+    {% endif %}
+    </div>
+    {% endif %}
+</div>

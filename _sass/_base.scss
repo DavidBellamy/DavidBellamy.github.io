@@ -332,7 +332,6 @@ footer.sticky-bottom {
   .card {
     background-color: var(--global-project-card-bg-color);
     img {
-      margin-left: 0.5rem;
       width: 100%;
     }
     .card-title {
@@ -514,89 +513,93 @@ footer.sticky-bottom {
     margin-bottom: -2rem;
     text-align: right;
   }
+  ol.talk_list {
+    list-style: none;
+    padding: 0;
+    margin-top: 3rem;
     
-  .row {
-    margin-bottom: 2rem;
-    .img_and_text {  
-      .img {
-       max-width: 30%; 
-       float: left;
-       padding-right: 10px;
-       border-radius: 3%; 
-      }
-      .title {
-        font-weight: bolder;
-      }
-      .author {
-        max-width: 70%;
-        a {
-          border-bottom: 1px dashed var(--global-theme-color);
-          &:hover {
-              border-bottom-style: solid;
-              text-decoration: none;
-          }
-        }
-        > em {
-          border-bottom: 1px solid;
-          font-style: normal;
-        }
-      }
-    }
-      .links {
-        margin-top: 1rem;
-        a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
+    li {
+      margin-bottom: 1rem;
+        .img {
+          height: 10rem;
+          margin-bottom: 0.5rem;
+          display: inline-block;
+          padding-left: 0.5rem;
           padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+        }
+        .title {
+          font-weight: bolder;
+        }
+        .author {
+          a {
+            border-bottom: 1px dashed var(--global-theme-color);
+            &:hover {
+                border-bottom-style: solid;
+                text-decoration: none;
+            }
+          }
+          > em {
+            border-bottom: 1px solid;
+            font-style: normal;
           }
         }
-      }
-      .hidden {
-        font-size: 0.875rem;
-        max-height: 0px;
-        overflow: scroll;
-        text-align: justify;
-        -webkit-transition: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
-        transition: all 0.15s ease;
+    
+        .links {
+          margin-top: 1rem;
+          a.btn {
+            color: var(--global-text-color);
+            border: 1px solid var(--global-text-color);
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 0.25rem;
+            padding-bottom: 0.25rem;
+            &:hover {
+              color: var(--global-theme-color);
+              border-color: var(--global-theme-color);
+            }
+          }
+        }
+        .hidden {
+          font-size: 0.875rem;
+          max-height: 0px;
+          overflow: scroll;
+          text-align: justify;
+          -webkit-transition: 0.15s ease;
+          -moz-transition: 0.15s ease;
+          -ms-transition: 0.15s ease;
+          -o-transition: 0.15s ease;
+          transition: all 0.15s ease;
 
-        p {
-          line-height: 1.4em;
-          margin: 10px;
+          p {
+            line-height: 1.4em;
+            margin: 10px;
+          }
+          pre {
+            font-size: 1em;
+            line-height: 1.4em;
+            padding: 10px;
+          }
         }
-        pre {
-          font-size: 1em;
-          line-height: 1.4em;
-          padding: 10px;
+        .hidden.open {
+          max-height: 100em;
+          -webkit-transition: 0.15s ease;
+          -moz-transition: 0.15s ease;
+          -ms-transition: 0.15s ease;
+          -o-transition: 0.15s ease;
+          transition: all 0.15s ease;
         }
-      }
-      .hidden.open {
-        max-height: 100em;
-        -webkit-transition: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
-        transition: all 0.15s ease;
-      }
-      div.summary.hidden {
-        border: dashed 1px var(--global-bg-color);
-      }
-      div.summary.hidden.open {
-        border-color: var(--global-text-color);
-      }
-      div.slides.hidden{
-        border: dashed 1px var(--global-bg-color);
-      }
-      div.slides.hidden.open {
-        border-color: var(--global-text-color);
+        div.summary.hidden {
+          border: dashed 1px var(--global-bg-color);
+        }
+        div.summary.hidden.open {
+          border-color: var(--global-text-color);
+        }
+        div.slides.hidden{
+          border: dashed 1px var(--global-bg-color);
+        }
+        div.slides.hidden.open {
+          border-color: var(--global-text-color);
+        }
       }
     }
   }

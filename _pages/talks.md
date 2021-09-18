@@ -15,9 +15,11 @@ nav: true
     <!-- sort by presentation date -->
     <!-- <div class="container"> -->
         <!-- <div class="row row-cols-2"> -->
+        <ol class="talk_list">
             {% for talk in categorized_talks %}
-                {% include talks.html %}
+                <li>{% include talks.html %}</li>
             {% endfor %}
+        </ol>
         <!-- </div> -->
     <!-- </div> -->
 {% endfor %}

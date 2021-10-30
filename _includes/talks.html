@@ -1,17 +1,15 @@
+
 <div class="row">
-  
-  <!-- <div id="{{talk.key}}" class="col-sm-8"> -->
-    <div class="img_and_text">
-      <img class="img" src="{{ talk.img }}" data-zoomable>
+
+  <div class="col-xl-4 col-sm-4 col-xs-4 img">
+    <img class="img" src="{{ talk.img }}" data-zoomable>
+  </div>
+
+  <div class="col-xl-6 col-sm-6 col-xs-6">  
       <div class="title">{{talk.title}}</div>
       <div class="author">{{talk.authors}}</div> 
-      <div>
-        {{talk.paper_year}}
-      </div>
-      <div>
-        Presented on {{talk.presentation_date}}      
-      </div>
-    </div>
+      <div>{{talk.paper_year}}</div>
+      <div>Presented on {{talk.presentation_date}}</div>
    
     <div class="links">
       {% if talk.summary %}
@@ -59,15 +57,15 @@
         
       {% if talk.slides_keynote %}
       {% if talk.slides_keynote contains '://' %}
-      <a href="{{ talk.slides_keynote }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides (key)</a>
+      <a href="{{ talk.slides_keynote }}" class="btn btn-sm z-depth-0" role="button" target="_blank">.key</a>
       {% else %}
       <a href="{{ talk.slides_keynote | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank"> .key</a>
       {% endif %}
     {% endif %}
     
     {% if talk.slides_ppt %}
-        {% if talk.ppt contains '://' %}
-        <a href="{{ talk.slides_ppt }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides (ppt)</a>
+        {% if talk.slides_ppt contains '://' %}
+        <a href="{{ talk.slides_ppt }}" class="btn btn-sm z-depth-0" role="button" target="_blank">.ppt</a>
         {% else %}
         <a href="{{ talk.slides_ppt | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank"> .pptx</a>
         {% endif %}
@@ -75,11 +73,12 @@
     
     {% if talk.slides_pdf %}
         {% if talk.slides_pdf contains '://' %}
-        <a href="{{ talk.slides_pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides (pdf)</a>
+        <a href="{{ talk.slides_pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">.pdf</a>
         {% else %}
         <a href="{{ talk.slides_pdf | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank"> .pdf</a>
         {% endif %}
     {% endif %}
     </div>
     {% endif %}
+</div>
 </div>

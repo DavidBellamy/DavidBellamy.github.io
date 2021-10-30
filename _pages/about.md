@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <i>E pur si muove</i> 
 
 profile:
   align: right
@@ -18,8 +18,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-This is a test. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a PhD candidate at Harvard University in the Department of Epidemiology, a proud member of the Harvard <a href="https://causalab.sph.harvard.edu/">`CAUSALab`</a> and my advisor is <a href="http://beamlab.org/">`Andrew Beam`</a>. I am interested in, what I may dare to call, the future of Artificial Intelligence. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/publications/) automatically.
+What does this have to do with Epidemiology? As many people have said before me, this future necessarily involves causality. And causality is the language of Epidemiology. Similarly, robust AI promises to have far-reaching consequences for our healthcare systems, and thus, for public health.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I do not subscribe to a single discipline, but rather deliberately maintain an eclectic focus, in search of big ideas from all domains. My background training is in biochemistry, molecular biology, and epidemiology, whereas I am mostly self-taught in mathematics, computer science, and statistics.  

@@ -65,7 +65,7 @@
     
     {% if talk.slides_ppt %}
         {% if talk.slides_ppt contains '://' %}
-        <a href="{{ talk.slides_ppt }}" class="btn btn-sm z-depth-0" role="button" target="_blank">.ppt</a>
+        <a href="{{ talk.slides_ppt }}" class="btn btn-sm z-depth-0" role="button" target="_blank">.pptx</a>
         {% else %}
         <a href="{{ talk.slides_ppt | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank"> .pptx</a>
         {% endif %}

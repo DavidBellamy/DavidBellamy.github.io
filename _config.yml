@@ -73,7 +73,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 blog_name: Random Walks # your blog must have a name for it to show up in the nav bar
-blog_description: musings on AI and the mathematical sciences
+blog_description: 
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -97,6 +97,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  posts:
+    output: true
+    permalink: /blog/:path/
   talks:
     output: true
     permalink: /talks/:path/

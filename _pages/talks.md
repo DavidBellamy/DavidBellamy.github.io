@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /talks/
+permalink:
 title: talks
 description: 
 display_categories: [journal clubs, research talks] # add invited talks hopefully some day
-nav: true
+nav: false
 ---
 
 <div class="talks">

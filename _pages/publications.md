@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /publications/
+permalink:
 title: publications
 description: 
 years: [2015, 2020]
-nav: true
+nav: false 
 ---
 
 <div class="publications">

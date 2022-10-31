@@ -6,7 +6,7 @@ description: <i>E pur si muove</i>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   address: >
     <p>Department of Epidemiology</p>
     <p>Harvard University</p>
@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a PhD candidate at Harvard University in the Department of Epidemiology, a proud member of the Harvard <a href="https://causalab.sph.harvard.edu/">`CAUSALab`</a> and my advisor is <a href="http://beamlab.org/">`Andrew Beam`</a>. I am interested in, what I may dare to call, the future of Artificial Intelligence. 
+I'm a PhD candidate at Harvard University in the <a href="https://www.hsph.harvard.edu/epidemiology/">`Department of Epidemiology`</a>, a proud member of the Harvard <a href="https://causalab.sph.harvard.edu/">`CAUSALab`</a> and my advisor is <a href="http://beamlab.org/">`Andrew Beam`</a>. I am interested in, what I may dare to call, the future of Artificial Intelligence. 
 
 What does this have to do with Epidemiology? As many people have said before me, this future necessarily involves causality. And causality is the language of Epidemiology. Similarly, robust AI promises to have far-reaching consequences for our healthcare systems, and thus, for public health.
 

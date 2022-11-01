@@ -7,6 +7,8 @@ description: A specification of roles that interest me
 
 I am officially graduating in May 2023 with my PhD in Epidemiology and Masters in Biostatistics, so I am searching for jobs beginning around July 1, 2023. I am broadly interested in Machine Learning Scientist roles in industry, especially at early-stage biotech companies such as [Generate Biomedicines](https://generatebiomedicines.com/), [Insitro](https://insitro.com/), [Dyno Therapeutics](https://www.dynotx.com/), and [Isomorphic Labs](https://www.isomorphiclabs.com/). 
 
-I would also be interested in comparable roles at larger (bio)pharmaceutical companies such as Amgen, Pfizer, Genentech, Vertex, and Johnson & Johnson, and ML-focused tech departments such as Google Brain, Meta AI Research, and Apple Health.
+I would also be interested in comparable roles at larger (bio)pharmaceutical companies such as Amgen, Pfizer, Genentech, Vertex, and Johnson & Johnson, and ML-focused tech departments such as Google Brain, Meta AI, and Apple Health.
 
 As for postdoctoral fellowships, I am open to considering one if the fit is right!
+
+Note: I am a Canadian and EU citizen (French by birthright), and I have 3 years of work status (STEM-OPT) in the US starting June 2023. I will acquire US permanent residency during that time. I am also bilingual in English and French.

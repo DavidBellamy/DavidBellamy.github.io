@@ -2,7 +2,7 @@
 layout: post
 title: My job search for summer 2023
 date: 2022-11-01
-description: A specification of what I'm searching for
+description: A specification of roles that interest me
 ---
 
 I am officially graduating in May 2023 with my PhD in Epidemiology and Masters in Biostatistics, so I am searching for jobs beginning around July 1, 2023. I am broadly interested in Machine Learning Scientist roles in industry, especially at early-stage biotech companies such as [Generate Biomedicines](https://generatebiomedicines.com/), [Insitro](https://insitro.com/), [Dyno Therapeutics](https://www.dynotx.com/), and [Isomorphic Labs](https://www.isomorphiclabs.com/). 

@@ -2,7 +2,7 @@
 layout: post
 title: How to make an online avatar with deep learning
 date: 2022-10-31 17:15:00
-description: A quick tutorial on using Dreambooth to fine-tune stable diffusion
+description: A short tutorial on using Dreambooth to fine-tune stable diffusion
 ---
 
 **TLDR;** this tutorial is an extension to the instructions from [Xavier Xiao's repo](https://github.com/XavierXiao/Dreambooth-Stable-Diffusion) with some gaps filled and tips added.

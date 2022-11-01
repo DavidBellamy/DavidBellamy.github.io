@@ -18,8 +18,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+#### [On the job market for summer '23](/blog/2022-11-01-jobsearch/)
+
 I am a PhD candidate at Harvard University in the <a href="https://www.hsph.harvard.edu/epidemiology/">`Department of Epidemiology`</a> advised by <a href="http://beamlab.org/">`Andrew Beam`</a>. 
-I develop deep learning applications for medicine, such as by <a href="https://arxiv.org/abs/2205.09824">expanding methods for confounding adjustment</a> or pretraining Transformers on massive electronic health records. 
+I develop deep learning applications for medicine, such as by <a href="https://arxiv.org/abs/2205.09824">expanding methods for confounding adjustment</a> or pretraining Transformers on massive electronic health records to learn patient embeddings. 
 
 I am also a proud member of the Harvard <a href="https://causalab.sph.harvard.edu/">`CAUSALab`</a>, where I work with <a href="https://twitter.com/_miguelhernan">`Miguel Hernán`</a> and <a href="https://scholar.google.com/citations?user=RKGsk9cAAAAJ&hl=en">`James Robins`</a>. 
 

@@ -7,7 +7,7 @@ description: A quick tutorial on using Dreambooth to fine-tune stable diffusion
 
 **TLDR;** this tutorial is an extension to the instructions from [Xavier Xiao's repo](https://github.com/XavierXiao/Dreambooth-Stable-Diffusion) with some gaps filled and tips added.
 
-**Summary**: Since their release in December 2021, [latent diffusion models (LDMs)](https://arxiv.org/abs/2112.10752) have completely taken over image synthesis. [DreamBooth](https://dreambooth.github.io/), released 2 months ago, allows us to fine-tune an LDM called Stable Diffusion on images of our choice and then generate related images via text prompts. We can use use this approach to fine-tune Stable Diffusion on images of ourselves and then generate beautiful avatars.
+**Summary**: Since their release in December 2021, [latent diffusion models (LDMs)](https://arxiv.org/abs/2112.10752) have completely taken over image synthesis. [DreamBooth](https://dreambooth.github.io/), released 2 months ago, allows us to fine-tune an LDM called [Stable Diffusion](https://stability.ai/blog/stable-diffusion-announcement) on images of our choice and then generate related images via text prompts. We can use this approach to fine-tune Stable Diffusion on images of ourselves and then generate beautiful avatars.
 
 
 ## Tutorial Steps:
@@ -48,7 +48,7 @@ hf_hub_download(repo_id="CompVis/stable-diffusion-v-1-4-original",
                 --reg_data_root /root/to/regularization/images 
                 --class_word <xxx>
    {% endhighlight %}
-- For the class_word, I recommend using a noun, not an adjective/style. Ex. do not use "portrait", use "man" or "woman" instead.
+- For the class_word, I recommend using a noun, not an adjective/style. Ex. do not use "portrait" (a style of image), use "man" or "woman" instead.
 - On one A100, the training takes ~15 min or so.
 - Note: the gpus '0' argument is not referring to "no GPUs", it refers to the device number.
 

@@ -11,8 +11,6 @@
   David R. Bellamy
 
 
-  | blog
-
 </title>
 <meta name="description" content="">
 
@@ -36,7 +34,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -78,10 +76,6 @@
     <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
     <div class="container">
       
-      <a class="navbar-brand title font-weight-lighter" href="/">
-       <span class="font-weight-bold">David</span> R.  Bellamy
-      </a>
-      
       <!-- Navbar Toggle -->
       <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>
@@ -92,27 +86,25 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- About -->
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="/">
               about
+              
+                <span class="sr-only">(current)</span>
               
             </a>
           </li>
           <li class="nav-item"><a class="nav-link" href="/assets/pdf/cv.pdf">cv</a></li> 
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
-              
-              <span class="sr-only">(current)</span>
               
             </a>
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -156,30 +148,84 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>Random Walks</h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">
+     <span class="font-weight-bold">David</span> R. Bellamy
+    </h1>
+     <p class="desc"></p>
+  </header>
 
-
-  <ul class="post-list">
+  <article>
     
-      <li>
-        <h3><a class="post-title" href="/blog/2022-11-01-jobsearch/">My job search for summer 2023</a></h3>
-        <p class="post-meta">February 1, 2023</p>
-        <p>A specification of roles that interest me</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2022-10-31-dreambooth/">How to make an online avatar with deep learning</a></h3>
-        <p class="post-meta">October 31, 2022</p>
-        <p>A short tutorial on using Dreambooth to fine-tune stable diffusion</p>
-      </li>
-    
-  </ul>
+    <div class="profile float-right">
+      
+        <img class="img-fluid z-depth-1 rounded" src="/assets/img/prof_pic.png">
+      
+      
+        <div class="address">
+          <p>Flagship Labs 97, Inc.</p> <p>One Kendall Square</p> <p>Cambridge, MA 02139</p>
 
-  
+        </div>
+      
+    </div>
+    
 
+    <div class="clearfix">
+      <p>Hi there! I am a Deep Learning Scientist/Engineer working at an early-stage startup originating from <a href="https://www.flagshippioneering.com/companies?status=current"><code class="language-plaintext highlighter-rouge">Flagship Pioneering</code></a> with expertise in causal inference and molecular biology. My current role involves developing an AI system that can conduct scientific research autonomously. My academic work has been featured in top venues such as <a href="https://arxiv.org/abs/2205.09824"><code class="language-plaintext highlighter-rouge">NeurIPS</code></a>, the <a href="https://pubmed.ncbi.nlm.nih.gov/35792990/"><code class="language-plaintext highlighter-rouge">European Journal of Epidemiology</code></a>, and <a href="https://pubmed.ncbi.nlm.nih.gov/25894825/"><code class="language-plaintext highlighter-rouge">Nature Medicine</code></a>. I am also an experienced Python developer and can produce high-quality machine learning code, models and experimental workflows in rapid iteration cycles. I received my PhD in Epidemiology and Masters in Biostatistics at the Harvard School of Public Health in May 2023. In my PhD, I developed deep learning methods for risk prediction in the intensive care unit as well as for causal inference in the presence of unmeasured confounding. Previously, I was a doctoral student at Harvard Medical School in molecular biology and spent 6 years conducting research in epigenetics, mass spectrometry, and virology.</p>
+
+<!-- I am a PhD candidate at Harvard University in the <a href="https://www.hsph.harvard.edu/epidemiology/">`Department of Epidemiology`</a> advised by <a href="http://beamlab.org/">`Andrew Beam`</a>. 
+Broadly speaking, I do medical deep learning and causal inference research. For example, I have trained Transformers on electronic health records, which can be later fine-tuned on downstream tasks such as in-hospital mortality prediction in the intensive care unit. I have also developed a novel way to adjust for unmeasured confounding by adapting the <a href="https://arxiv.org/abs/2009.10982">`proximal inference framework`</a> to work with neural networks. -->
+
+<p>Other projects I am preparing to publish feature multi-task learning with Transformers, numeric embeddings for tabular deep learning, and designing global token spaces (akin to <a href="https://nips.cc/virtual/2022/poster/53258"> <code class="language-plaintext highlighter-rouge">Pix2Seq V2</code></a> from NeurIPS ‘22) for multimodal and generalist agents like <a href="https://www.deepmind.com/publications/a-generalist-agent"><code class="language-plaintext highlighter-rouge">GATO</code></a>. I am a scaling law enthusiast and follow the latest tricks and trends used to train multi-billion parameter models, building them myself as well.</p>
+
+<p>On the causality side, I was a member of the Harvard <a href="https://causalab.sph.harvard.edu/"><code class="language-plaintext highlighter-rouge">CAUSALab</code></a>, where I have been privileged to work with and learn from world-famous <a href="https://twitter.com/_miguelhernan"><code class="language-plaintext highlighter-rouge">Miguel Hernán</code></a> and <a href="https://scholar.google.com/citations?user=RKGsk9cAAAAJ&amp;hl=en"><code class="language-plaintext highlighter-rouge">James Robins</code></a>. I have also consulted with <a href="https://artera.ai/"><code class="language-plaintext highlighter-rouge">Artera.ai</code></a> on a causal machine learning project for precision treatment decision-making.</p>
+
+<p>Stemming from my 6 years of experience as a molecular biologist, I have a particular interest in the use of machine learning for drug discovery, protein engineering and the conduct of science more generally.</p>
+
+<!-- interested in, what I may dare to call, the future of Artificial Intelligence. 
+
+What does this have to do with Epidemiology? As many people have said before me, this future necessarily involves causality. And causality is the language of Epidemiology. Similarly, robust AI promises to have far-reaching consequences for our healthcare systems, and thus, for public health.
+
+I do not subscribe to a single discipline, but rather deliberately maintain an eclectic focus, in search of big ideas from all domains. My background training is in biochemistry, molecular biology, and epidemiology, whereas I am mostly self-taught in mathematics, computer science, and statistics.   -->
+
+    </div>
+
+    
+
+    
+      <!-- <div class="publications">
+  <h2>selected publications</h2>
+  <ol class="bibliography"></ol>
+</div> -->
+
+    
+
+    
+    <div class="social">
+      <div class="contact-icons">
+        <a href="mailto:%64%61%76%69%64_%62%65%6C%6C%61%6D%79@%67.%68%61%72%76%61%72%64.%65%64%75"><i class="fas fa-envelope"></i></a>
+<a href="https://orcid.org/0000-0002-6878-0803" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>
+<a href="https://scholar.google.com/citations?user=IZ-cCF4AAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+
+
+<a href="https://github.com/DavidBellamy" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+<a href="https://www.linkedin.com/in/drbellamy" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+<a href="https://twitter.com/DavidRBellamy" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="contact-note">The best way to reach me is via email.</div>
+    </div>
+    
+  </article>
 
 </div>
 

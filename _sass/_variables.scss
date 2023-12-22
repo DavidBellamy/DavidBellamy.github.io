@@ -3,6 +3,7 @@
  * To adjust anything, simply edit the variables below and rebuild the theme.
  ******************************************************************************/
 
+ 
 // Colors
 $red-color:           #FF3636 !default;
 $red-color-dark:      #B71C1C !default;
@@ -24,11 +25,15 @@ $yellow-color:        #efcc00 !default;
 
 $grey-color:          #828282 !default;
 $grey-color-light:    lighten($grey-color, 40%);
-$grey-color-dark:     #1C1C1D;
+$grey-color-dark:     darken($grey-color, 25%);
 $grey-900:            #212529;
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
+
+// Project card colors
+$card-bg-color-light: $white-color;
+$card-bg-color-dark: rgba(white, 0.6);
 
 // Theme colors
 

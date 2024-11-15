@@ -23,25 +23,26 @@
     <div class="collapse navbar-collapse text-right" id="navbarNav">
       <ul class="navbar-nav ml-auto flex-nowrap">
         <!-- About -->
-        <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
+        <!-- <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
           <a class="nav-link" href="{{ '/' | relative_url }}">
             about
             {% if page.title == "about" %}
               <span class="sr-only">(current)</span>
             {% endif %}
           </a>
-        </li>
-        <li class="nav-item"><a class="nav-link" href="/assets/pdf/cv.pdf">cv</a></li> 
+        </li> -->
+        <!-- CV link commented out to hide button but preserve content -->
+        <!-- <li class="nav-item"><a class="nav-link" href="/assets/pdf/cv.pdf">cv</a></li>  -->
         {% if site.blog_name %}
         <!-- Blog -->
-        <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+        <!-- <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
           <a class="nav-link" href="{{ '/blog/' | relative_url }}">
             blog
             {% if page.title == "blog" %}
             <span class="sr-only">(current)</span>
             {% endif %}
           </a>
-        </li>
+        </li> -->
         {% endif %}
         <!-- Other pages -->
         {% assign sorted_pages = site.pages | sort: "title" %}

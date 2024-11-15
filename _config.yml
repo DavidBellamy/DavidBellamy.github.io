@@ -64,8 +64,8 @@ github_username: DavidBellamy
 gitlab_username: # your GitLab user name
 twitter_username: DavidRBellamy
 linkedin_username: drbellamy
-scholar_userid: IZ-cCF4AAAAJ
-orcid_id: 0000-0002-6878-0803
+scholar_userid: ZialG8UAAAAJ
+orcid_id: # 0000-0002-6878-0803
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -136,8 +136,9 @@ collections:
     output: true
     permalink: /projects/:path/
   posts:
-    output: true
+    output: false
     permalink: /blog/:path/
+    enabled: false
   talks:
     output: true
     permalink: /talks/:path/
@@ -168,10 +169,15 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - _posts
+  - blog
 keep_files:
   - CNAME
   - .nojekyll
   - .git
+
+# Encoding settings
+encoding: utf-8
 
 # Plug-ins
 plugins:
@@ -185,7 +191,7 @@ plugins:
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
-  - jekyll/scholar
+  # - jekyll/scholar  # Temporarily disable jekyll-scholar
   - jekyll-sitemap
   - jekyll-toc
   - jekyll-twitter-plugin

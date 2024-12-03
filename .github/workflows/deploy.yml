@@ -5,10 +5,12 @@ on:
     branches:
       - master
       - main
+      - source
   pull_request:
     branches:
       - master
       - main
+      - source
   workflow_dispatch:
 
 permissions:
@@ -45,4 +47,3 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: _site
-

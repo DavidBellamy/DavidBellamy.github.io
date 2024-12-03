@@ -35,7 +35,7 @@ I think that AI is going to transform the world more significantly than computer
 06/2022: Structural characterization of shortcut features accepted by the **European Journal of Epidemiology**. \\
 03/2022: Began teaching **Harvard's Deep Learning course** at the Medical School. \\
 02/2022: Placed 2nd out of 60 teams in the <a href="https://sites.google.com/view/datathonatlish">Lab for Innovation Science at Harvard datathon</a>. \\
-01/2022: Attended the <a href="https://simons.berkeley.edu/workshops/causality-boot-camp">Causality Boot Camp</a> at **The Simons Institute** for the Theory of Computing.
+01/2022: Attended the <a href="https://simons.berkeley.edu/workshops/causality-boot-camp">Causality Boot Camp</a> at **The Simons Institute** for the Theory of Computing. \\
 05/2022: I completed my **Masters of Science in Biostatistics at Harvard University**. \\
 01/2022: I was awarded the **Harvard Department of Epidemiology's UCB Pharma Fellowship**. \\
 09/2021: I was selected as a **founding member of the Harvard CAUSALab** by Miguel Hernan and James Robins. \\

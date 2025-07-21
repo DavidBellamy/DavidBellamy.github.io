@@ -17,12 +17,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a research scientist building AI for scientific discovery. My goal is to create an AI that can do the work of a human scientist. In this work, I build reward models from real-world data and train LLM’s against them with reinforcement learning at scale. I am currently a founding AI researcher at <a href="https://lila.ai">`Lila Sciences`</a>, a startup originating from <a href="https://www.flagshippioneering.com/companies?status=current">`Flagship Pioneering`</a>, where Moderna was founded. My prior work has been featured in venues such as `NeurIPS`<a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/487c9d6ef55e73aa9dfd4b48fe3713a6-Abstract-Conference.html">[1]</a> <a href="https://openreview.net/forum?id=sG6tdKozS7&referrer=%5Bthe%20profile%20of%20Manqing%20Liu%5D(%2Fprofile%3Fid%3D~Manqing_Liu1)">[2]</a>, `ICML` <a href="https://arxiv.org/abs/2305.18404">[3]</a>, `Machine Learning for Health (ML4H)` <a href="https://openreview.net/forum?id=JpeY8Umenv&referrer=%5Bthe%20profile%20of%20David%20Remy%20Bellamy%5D(%2Fprofile%3Fid%3D~David_Remy_Bellamy1)">[4]</a>, the `European Journal of Epidemiology`<a href="https://link.springer.com/article/10.1007/s10654-022-00892-3">[5]</a>, and `Nature Medicine`<a href="https://pubmed.ncbi.nlm.nih.gov/25894825/">[6]</a> as well as an mRNA patent with the USPTO.
+I am an independent researcher working on the foundations of AI and reinforcement learning. 
 
-I think that AI is going to transform the world more significantly than the transistor and I am excited to be a part of this transformation.
+Previously, I was a founding AI researcher at <a href="https://lila.ai">`Lila Sciences`</a>, a startup originating from <a href="https://www.flagshippioneering.com/companies?status=current">`Flagship Pioneering`</a>, where Moderna was founded. My prior work has been featured in venues such as `NeurIPS`<a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/487c9d6ef55e73aa9dfd4b48fe3713a6-Abstract-Conference.html">[1]</a> <a href="https://openreview.net/forum?id=sG6tdKozS7&referrer=%5Bthe%20profile%20of%20Manqing%20Liu%5D(%2Fprofile%3Fid%3D~Manqing_Liu1)">[2]</a>, `ICML` <a href="https://arxiv.org/abs/2305.18404">[3]</a>, `Machine Learning for Health (ML4H)` <a href="https://openreview.net/forum?id=JpeY8Umenv&referrer=%5Bthe%20profile%20of%20David%20Remy%20Bellamy%5D(%2Fprofile%3Fid%3D~David_Remy_Bellamy1)">[4]</a>, the `European Journal of Epidemiology`<a href="https://link.springer.com/article/10.1007/s10654-022-00892-3">[5]</a>, and `Nature Medicine`<a href="https://pubmed.ncbi.nlm.nih.gov/25894825/">[6]</a> as well as an mRNA patent with the USPTO.
 
 ### News
-
+5/2025: I left Lila to pursue independent research in RL!
 12/2024: We publicly launched our company <a href="https://lila.ai">Lila Sciences</a>! \\
 12/2024: Labrador was awarded the 2024 Machine Learning for Health (ML4H) **Best Paper Award**. \\
 11/2024: Labrador was awarded an oral spotlight presentation at **ML4H 2024**.\\

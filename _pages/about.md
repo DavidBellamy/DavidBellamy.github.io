@@ -8,9 +8,7 @@ profile:
   align: right
   image: prof_pic.png
   address: >
-    <p>Lila Sciences</p>
-    <p>124 First Street</p>
-    <p>Cambridge, MA 02141</p>
+    <p>Cambridge, MA</p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"

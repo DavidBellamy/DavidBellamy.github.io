@@ -18,10 +18,10 @@ I am independently researching ways to improve how LLMs learn.
 
 Previously, I was a founding AI researcher at <a href="https://lila.ai">`Lila Sciences`</a> working on scientific superintelligence. 
 
-**Latest**: Hitting the Noise Floor: SFT vs GRPO-Clip on GSM8k ([W&B report](https://wandb.ai/davidbellamy/grpo-gsm8k/reports/Hitting-the-Noise-Floor-SFT-vs-GRPO-Clip-on-GSM8k--VmlldzoxNTMyMDUyMQ), [Code](https://github.com/DavidBellamy/grpo-gsm8k))
+**Latest**: Hitting the Noise Floor: SFT vs GRPO-Clip on GSM8k ([W&B report](https://wandb.ai/davidbellamy/grpo-gsm8k/reports/Hitting-the-Noise-Floor-SFT-vs-GRPO-Clip-on-GSM8k--VmlldzoxNTMyMDUyMQ?accessToken=6rlc5h70yx8bu4td297yqk8qbyurmk6zrvcd3gt2k00gmn2gtluj2hljh62006is), [Code](https://github.com/DavidBellamy/grpo-gsm8k))
 
 ### News
-12/2025: New write-up: "Hitting the Noise Floor: SFT vs GRPO-Clip on GSM8k." A controlled comparison of SFT vs RL (GRPO) training dynamics on GSM8k. ([Report & Runs](https://wandb.ai/davidbellamy/grpo-gsm8k/reports/Hitting-the-Noise-Floor-SFT-vs-GRPO-Clip-on-GSM8k--VmlldzoxNTMyMDUyMQ) | [Code](https://github.com/DavidBellamy/grpo-gsm8k)) \\
+12/2025: New write-up: "Hitting the Noise Floor: SFT vs GRPO-Clip on GSM8k." A controlled comparison of SFT vs RL (GRPO) training dynamics on GSM8k. ([Report & Runs](https://wandb.ai/davidbellamy/grpo-gsm8k/reports/Hitting-the-Noise-Floor-SFT-vs-GRPO-Clip-on-GSM8k--VmlldzoxNTMyMDUyMQ?accessToken=6rlc5h70yx8bu4td297yqk8qbyurmk6zrvcd3gt2k00gmn2gtluj2hljh62006is) | [Code](https://github.com/DavidBellamy/grpo-gsm8k)) \\
 5/2025: I left Lila to pursue independent research in RL! \\
 12/2024: We publicly launched our company <a href="https://lila.ai">Lila Sciences</a>! \\
 12/2024: Labrador was awarded the 2024 Machine Learning for Health (ML4H) **Best Paper Award**. \\

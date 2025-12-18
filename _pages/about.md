@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am independently researching ways to improve how LLMs learn. 
+I am a Harvard PhD and Research Engineer independently researching ways to improve how LLMs learn.
 
 Previously, I was a founding AI researcher at <a href="https://lila.ai">`Lila Sciences`</a> working on scientific superintelligence. 
 
@@ -27,31 +27,18 @@ Previously, I was a founding AI researcher at <a href="https://lila.ai">`Lila Sc
 12/2024: Labrador was awarded the 2024 Machine Learning for Health (ML4H) **Best Paper Award**. \\
 11/2024: Labrador was awarded an oral spotlight presentation at **ML4H 2024**.\\
 10/2024: DAG-aware Transformer accepted at **NeurIPS 2024 workshop** on <a href="https://neurips.cc/virtual/2023/workshop/66497">Causal Representation Learning</a>. \\
-10/2023: GPT-4 evaluation on the US Anaesthesiology Board Exam accepted by the **British Journal of Anaesthesia**. \\
 06/2023: Conformal prediction with LLMs accepted at **ICML 2023 workshop** on <a href="https://icml.cc/virtual/2023/workshop/21485">Neural Conversational AI</a>. \\
 05/2023: Joined **Lila Sciences** as employee #1 and founding AI researcher. \\
 05/2023: **I defended my PhD** on the 2nd of May. My thesis is <a href="https://www.proquest.com/openview/c66cd47ee37ad3d68452fffc9f919e7b/1?pq-origsite=gscholar&cbl=18750&diss=y">here</a>. Thanks to my examination committee Andrew Beam, Tianxi Cai and Leo Celi. \\
 09/2022: Deep learning for proximal inference paper accepted at **NeurIPS 2022** main conference. \\
 07/2022: Began consulting with <a href="https://artera.ai/">`Artera.ai`</a> on a causal machine learning project for precision treatment decision-making. \\
 06/2022: Structural characterization of shortcut features accepted by the **European Journal of Epidemiology**. \\
-03/2022: Began teaching **Harvard's Deep Learning course** at the Medical School. \\
-02/2022: Placed 2nd out of 60 teams in the <a href="https://sites.google.com/view/datathonatlish">Lab for Innovation Science at Harvard datathon</a>. \\
-01/2022: Attended the <a href="https://simons.berkeley.edu/workshops/causality-boot-camp">Causality Boot Camp</a> at **The Simons Institute** for the Theory of Computing. \\
 05/2022: I completed my **Masters of Science in Biostatistics at Harvard University**. \\
+03/2022: Began teaching **Harvard's Deep Learning course** at the Medical School. \\
+01/2022: Attended the <a href="https://simons.berkeley.edu/workshops/causality-boot-camp">Causality Boot Camp</a> at **The Simons Institute** for the Theory of Computing. \\
 01/2022: I was awarded the **Harvard Department of Epidemiology's UCB Pharma Fellowship**. \\
 09/2021: I was selected as a **founding member of the Harvard CAUSALab** by Miguel Hernan and James Robins. \\
-06/2021: Began teaching the full-time graduate summer foundations course in biostatistics. \\
-10/2020: I <a href="https://arxiv.org/abs/2010.01149">published</a> a systematic review of neural net performance on tabular healthcare data. \\
-08/2020: Analysis of nonprofit vs. for-profit charity care spending accepted at the **Journal of General Internal Medicine**. \\
-06/2020: I joined Andrew Beam's lab at Harvard officially marking my **transition to machine learning**. \\
-08/2018: **Started a second PhD** in Epidemiology at the **Harvard School of Public Health** to study algorithms for digital phenotyping with Elise Robinson. \\
-01/2018: **Left my PhD** at Harvard Medical School to pursue a more ML-focused path. \\
-08/2016: **Started my PhD** in Biological & Biomedical Sciences at **Harvard Medical School** to study transgenerational epigenetic inheritance in *C. elegans* with Eric Greer. \\
-01/2016: Began teaching the University of Ottawa's core Biochemistry course. \\
-05/2015: Read Hinton, Bengio and LeCun's 2015 Nature paper "Deep learning". **Curiosity for AI began**. \\
-01/2015: Paper on oncolytic viruses and the tumor microenvironment accepted at **Nature Medicine**. \\
-09/2014: Joined **Harvard Medical School** as a student researcher in Yang Shi's lab.
-
+08/2018: **Started my PhD** in Biostatistics & Epidemiology at the **Harvard School of Public Health**.
 
 <!-- ### Harvard PhD 
 In my PhD, I built a pre-training dataset, bespoke data tokenizer for a non-canonical modality and a continuous embedding layer to adapt the Transformer to risk prediction in the intensive care unit. I also developed a neural net estimator to solve an ill-posed integral equation for causal inference in the presence of unmeasured confounding.  -->

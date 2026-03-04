@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: David 
 middle_name: Rémy
 last_name: Bellamy
-email: REDACTED
+email: # removed
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -63,10 +63,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: DavidBellamy
 gitlab_username: # your GitLab user name
-twitter_username: DavidRBellamy
-linkedin_username: drbellamy
-scholar_userid: ZialG8UAAAAJ
-orcid_id: # 0000-0002-6878-0803
+twitter_username: # removed
+linkedin_username: # removed
+scholar_userid: # removed
+orcid_id: # removed
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -88,7 +88,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 
-contact_note: The best way to reach me is via email. 
+contact_note:
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

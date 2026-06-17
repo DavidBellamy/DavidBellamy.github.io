@@ -6,7 +6,7 @@ description:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   address:
 
 news: false  # includes a list of news items
@@ -14,13 +14,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Harvard PhD and Research Engineer independently researching ways to improve how LLMs learn.
+I am an **Infrastructure Engineer for agentic training** and a Harvard PhD Statistician.
 
-Previously, I was a founding AI researcher at <a href="https://lila.ai">`Lila Sciences`</a> working on scientific superintelligence. 
+I am currently at the <a href="https://ifm.ai">`Institute of Foundation Models`</a> (ifm.ai) building reinforcement learning infrastructure for agentic training of a frontier-scale model that the team pretrained and midtrained in-house. My work spans the **entire agentic RL training stack**: per-rollout sandbox runtimes, the agent layer, the Rust inference request router, the inference engines, the trainer, the reward computation pool, and the orchestration control plane. Recent themes include cross-image NCCL weight transport between trainer and rollout engines, disaggregated prefill/decode reliability on multi-rail HGX fabrics, tokenizer-consistent training-on-rollouts (TITO), and rollout routing replay ([arXiv:2510.11370](https://arxiv.org/abs/2510.11370)) for large MoE RL training. Recent open-source contributions include `vLLM`, `SGLang`, the `SMG` inference request router, and `harbor`. See my <a href="https://github.com/DavidBellamy">GitHub profile</a> for a detailed list.
 
-**Latest**: Hitting the Noise Floor: SFT vs GRPO-Clip on GSM8k ([W&B report](https://wandb.ai/davidbellamy/grpo-gsm8k/reports/Hitting-the-Noise-Floor-SFT-vs-GRPO-Clip-on-GSM8k--VmlldzoxNTMyMDUyMQ?accessToken=6rlc5h70yx8bu4td297yqk8qbyurmk6zrvcd3gt2k00gmn2gtluj2hljh62006is), [Code](https://github.com/DavidBellamy/grpo-gsm8k))
+Previously, I was a founding AI researcher at <a href="https://lila.ai">`Lila Sciences`</a> working on scientific superintelligence.
 
 ### News
+06/2026: Upstreamed agentic-RL training infrastructure across the open-source stack ([vLLM](https://github.com/vllm-project/vllm/pull/38669), [SGLang](https://github.com/sgl-project/sglang/pull/23003), the [SMG](https://github.com/lightseekorg/smg) inference request router, and [harbor](https://github.com/harbor-framework/harbor/pull/1454)), spanning cross-image NCCL weight transport, rail-aligned prefill/decode disaggregation, and tokenizer-consistent training-on-rollouts (TITO). \\
+03/2026: Joined the <a href="https://ifm.ai">**Institute of Foundation Models**</a> as **Infrastructure Engineer for agentic training**, building the reinforcement learning infrastructure for agentic training of a frontier-scale model that the team pretrained and midtrained in-house. \\
 12/2025: New write-up: "Hitting the Noise Floor: SFT vs GRPO-Clip on GSM8k." A controlled comparison of SFT vs RL (GRPO) training dynamics on GSM8k. ([Report & Runs](https://wandb.ai/davidbellamy/grpo-gsm8k/reports/Hitting-the-Noise-Floor-SFT-vs-GRPO-Clip-on-GSM8k--VmlldzoxNTMyMDUyMQ?accessToken=6rlc5h70yx8bu4td297yqk8qbyurmk6zrvcd3gt2k00gmn2gtluj2hljh62006is) | [Code](https://github.com/DavidBellamy/grpo-gsm8k)) \\
 5/2025: I left Lila to pursue independent research in RL! \\
 12/2024: We publicly launched our company <a href="https://lila.ai">Lila Sciences</a>! \\

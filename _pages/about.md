@@ -21,6 +21,7 @@ I am currently at the <a href="https://ifm.ai">`Institute of Foundation Models`<
 Previously, I was a founding AI researcher at <a href="https://lila.ai">`Lila Sciences`</a> working on scientific superintelligence.
 
 ### News
+06/2026: Upstreamed agentic-RL training infrastructure across the open-source stack ([vLLM](https://github.com/vllm-project/vllm/pull/38669), [SGLang](https://github.com/sgl-project/sglang/pull/23003), the [SMG](https://github.com/lightseekorg/smg) inference request router, and [harbor](https://github.com/harbor-framework/harbor/pull/1454)), spanning cross-image NCCL weight transport, rail-aligned prefill/decode disaggregation, and tokenizer-consistent training-on-rollouts (TITO). \\
 03/2026: Joined the <a href="https://ifm.ai">**Institute of Foundation Models**</a> as **Infrastructure Engineer for agentic training**, building the reinforcement learning infrastructure for agentic training of a frontier-scale model that the team pretrained and midtrained in-house. \\
 12/2025: New write-up: "Hitting the Noise Floor: SFT vs GRPO-Clip on GSM8k." A controlled comparison of SFT vs RL (GRPO) training dynamics on GSM8k. ([Report & Runs](https://wandb.ai/davidbellamy/grpo-gsm8k/reports/Hitting-the-Noise-Floor-SFT-vs-GRPO-Clip-on-GSM8k--VmlldzoxNTMyMDUyMQ?accessToken=6rlc5h70yx8bu4td297yqk8qbyurmk6zrvcd3gt2k00gmn2gtluj2hljh62006is) | [Code](https://github.com/DavidBellamy/grpo-gsm8k)) \\
 5/2025: I left Lila to pursue independent research in RL! \\

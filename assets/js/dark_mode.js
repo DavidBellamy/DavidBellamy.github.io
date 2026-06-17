@@ -1,7 +1,9 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // Remove dark mode toggle functionality
-    const mode_toggle = document.getElementById("light-toggle");
-    if (mode_toggle) {
-        mode_toggle.style.display = 'none';
-    }
+document.addEventListener("DOMContentLoaded", function () {
+  const toggle = document.getElementById("light-toggle");
+  if (!toggle) return;
+
+  toggle.addEventListener("click", () => {
+    const current = localStorage.getItem("theme") || "light";
+    setTheme(current === "light" ? "dark" : "light");
+  });
 });

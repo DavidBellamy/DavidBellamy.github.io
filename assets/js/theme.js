@@ -1,9 +1,6 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
 let setTheme = (theme) => {
-  // Always use light theme
-  theme = "light";
-  
   transTheme();
   setHighlight(theme);
   setGiscusTheme(theme);
@@ -13,15 +10,24 @@ let setTheme = (theme) => {
   // Add class to tables.
   let tables = document.getElementsByTagName("table");
   for (let i = 0; i < tables.length; i++) {
-    tables[i].classList.remove("table-dark");
+    if (theme === "dark") {
+      tables[i].classList.add("table-dark");
+    } else {
+      tables[i].classList.remove("table-dark");
+    }
   }
 
   // Set jupyter notebooks themes.
   let jupyterNotebooks = document.getElementsByClassName("jupyter-notebook-iframe-container");
   for (let i = 0; i < jupyterNotebooks.length; i++) {
     let bodyElement = jupyterNotebooks[i].getElementsByTagName("iframe")[0].contentWindow.document.body;
-    bodyElement.setAttribute("data-jp-theme-light", "true");
-    bodyElement.setAttribute("data-jp-theme-name", "JupyterLab Light");
+    if (theme === "dark") {
+      bodyElement.setAttribute("data-jp-theme-light", "false");
+      bodyElement.setAttribute("data-jp-theme-name", "JupyterLab Dark");
+    } else {
+      bodyElement.setAttribute("data-jp-theme-light", "true");
+      bodyElement.setAttribute("data-jp-theme-name", "JupyterLab Light");
+    }
   }
 
   localStorage.setItem("theme", theme);
@@ -65,8 +71,14 @@ let transTheme = () => {
   }, 500);
 };
 
-let initTheme = (theme) => {
-  setTheme(theme);
+let initTheme = () => {
+  const stored = localStorage.getItem("theme");
+  if (stored) {
+    setTheme(stored);
+    return;
+  }
+  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  setTheme(prefersDark ? "dark" : "light");
 };
 
-initTheme("light");
+initTheme();

@@ -3,7 +3,7 @@ layout: post
 title: "RL weight sync takes minutes for large models but it can be 100x faster"
 date: 2026-06-30
 description: "In RL, the weight-sync transfer over the wire is only a couple of seconds, even for a trillion-parameter model, and barely grows with model size. The reported minutes come from weight conversion and loading around the transfer, not the network."
-permalink: /weight-sync/
+permalink: /blog/weight-sync/
 og_image: https://davidbellamy.github.io/assets/img/weight-sync-transfer-time.png
 related_posts: false
 ---

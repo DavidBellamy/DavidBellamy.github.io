@@ -36,7 +36,7 @@ Before asking what weight sync costs, let's express how often it happens, becaus
 
 RL training is the loop: inference -> environment -> reward -> trainer -> wt sync -> repeat
 
-Whichever step of the loop is the slowest governs the step time. Call the time between trainer updates (treating micro-steps as one big step) $$T_{\text{step}}$$. Weight sync happens once per step, so $$T_{\text{step}}$$ is also the time between weight syncs, and weight sync happens at rate $$1/T_{\text{step}}$$. Call the time to do weight sync $$T_{\text{wtsync}}$$.
+Whichever step of the loop is the slowest governs the update time. Call the time between trainer updates (treating micro-steps as one big step) $$T_{\text{step}}$$. Weight sync happens once per step, so $$T_{\text{step}}$$ is also the time between weight syncs, and weight sync happens at rate $$1/T_{\text{step}}$$. Call the time to do weight sync $$T_{\text{wtsync}}$$.
 
 Because the slowest step sets $$T_{\text{step}}$$ and inference is one of those steps, in a fully async setup $$T_{\text{step}} \ge T_{\text{inf}}$$ (both as averages). So the contribution of weight sync to the step time is the fraction $$T_{\text{wtsync}} / T_{\text{step}}$$.
 
